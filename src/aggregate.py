@@ -8,6 +8,13 @@ import data as D
 RUNS = os.path.join(D.ROOT, "results", "runs")
 
 
+def seeds_of(name):
+    """Seeds of a run whose embeddings are saved for all five folds."""
+    d = os.path.join(D.ROOT, "results", "emb", name)
+    ss = sorted({int(os.path.basename(p).split("_s")[1][:-4]) for p in glob.glob(os.path.join(d, "f0_s*.npz"))})
+    return [s for s in ss if all(os.path.exists(os.path.join(d, f"f{f}_s{s}.npz")) for f in range(D.N_FOLDS))]
+
+
 def load_run(name):
     """Concatenate per-query arrays over the 5 folds for each seed -> {seed: dict}."""
     out = {}

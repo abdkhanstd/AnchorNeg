@@ -5,7 +5,7 @@ import numpy as np
 import data as D
 import offline as O
 import report as R
-from make_figs import seeds_of
+from aggregate import seeds_of
 
 OUT = os.path.join(D.ROOT, "results", "summary")
 

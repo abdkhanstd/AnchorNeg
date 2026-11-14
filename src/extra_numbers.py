@@ -5,7 +5,7 @@ import data as D
 import offline as O
 import aggregate as A
 import report as R
-from make_figs import seeds_of
+from aggregate import seeds_of
 
 B = "bge_mnrl_h4_g0_r0_rc1"
 AN = "bge_mnrl_h4_g0_r0_rc1_npseen"
