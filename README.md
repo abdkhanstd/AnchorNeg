@@ -29,7 +29,7 @@ Generalized zero-shot intent retrieval (BGE-base, 5 unseen-intent folds x 3 seed
 
 With MPNet as encoder, AnchorNeg reaches 0.886 / 0.678 and 0.932 / 0.778 (HN-All 0.833 / 0.375 and 0.892 / 0.552).
 
-Dynamic mining (`--remine 1`, negatives re-mined from the current encoder every epoch), BGE-base, 3 seeds: HN-All 0.319 MAP@25 (unseen 0.269, seen share 0.742), AnchorNeg 0.316 (unseen 0.318, seen share 0.547). All runs, including BERT, DeBERTa-v3, MPNet and BGE-small backbones, the dose-response sweep over the number of negatives and the ablations, are in `results/runs/`.
+Dynamic mining (`--remine 1`, negatives re-mined from the current encoder every epoch), BGE-base, 3 seeds: HN-All 0.319 MAP@25 (unseen 0.269, seen share 0.742), AnchorNeg 0.316 (unseen 0.318, seen share 0.547), AnchorNeg+KD 0.324 (unseen 0.289). All runs, including BERT, DeBERTa-v3, MPNet and BGE-small backbones, the dose-response sweep over the number of negatives and the ablations, are in `results/runs/`.
 
 ## Layout
 

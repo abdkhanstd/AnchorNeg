@@ -1,0 +1,62 @@
+{
+ "args": {
+  "model": "bge",
+  "mode": "mnrl",
+  "fold": 0,
+  "seed": 1,
+  "epochs": 6,
+  "lr": 3e-05,
+  "bq": 16,
+  "tau": 0.05,
+  "hard": 4,
+  "no_correct": false,
+  "group": 0,
+  "rev": 0.0,
+  "rev_correct": 1,
+  "qlen": 256,
+  "mlen": 48,
+  "tag": "",
+  "save": false,
+  "dump": 1,
+  "diff": 0.0,
+  "rev_local": 0,
+  "rev_all": 0,
+  "distill": 1.0,
+  "dk": 128,
+  "dpool": "all",
+  "neg_pool": "seen",
+  "remine": 1,
+  "freeze_mis": 0,
+  "out": "D:\\Experiments\\Mata\\code\\results\\runs"
+ },
+ "name": "bge_mnrl_h4_g0_r0_rc1_npseen_dyn_kd1all_as2",
+ "n_test": 874,
+ "n_unseen": 395,
+ "all": {
+  "map25": 0.2949506744557497,
+  "mrr10": 0.28433674766626715,
+  "r1": 0.17391304347826086,
+  "r5": 0.44279176201373,
+  "r25": 0.7231121281464531
+ },
+ "seen": {
+  "map25": 0.321654022853244,
+  "mrr10": 0.31144828843158695,
+  "r1": 0.20041753653444677,
+  "r5": 0.4780793319415449,
+  "r25": 0.7265135699373695
+ },
+ "unseen": {
+  "map25": 0.2625686393104338,
+  "mrr10": 0.2514597146875628,
+  "r1": 0.14177215189873418,
+  "r5": 0.4,
+  "r25": 0.7189873417721518
+ },
+ "train_time_s": 932.3320488929749,
+ "train_peak_gb": 10.05308485031128,
+ "eval_time_s": 14.31909728050232,
+ "eval_peak_gb": 2.611011505126953,
+ "ms_per_query": 4.373403653945748,
+ "n_params": 109482240
+}
