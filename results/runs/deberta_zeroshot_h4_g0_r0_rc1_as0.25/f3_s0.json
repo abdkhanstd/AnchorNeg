@@ -1,0 +1,61 @@
+{
+ "args": {
+  "model": "deberta",
+  "mode": "zeroshot",
+  "fold": 3,
+  "seed": 0,
+  "epochs": 6,
+  "lr": 3e-05,
+  "bq": 16,
+  "tau": 0.05,
+  "hard": 4,
+  "no_correct": false,
+  "group": 0,
+  "rev": 0.0,
+  "rev_correct": 1,
+  "qlen": 256,
+  "mlen": 48,
+  "tag": "",
+  "save": false,
+  "dump": 1,
+  "diff": 0.0,
+  "rev_local": 0,
+  "rev_all": 0,
+  "distill": 0.0,
+  "dk": 128,
+  "dpool": "unseen",
+  "neg_pool": "all",
+  "freeze_mis": 0,
+  "out": "D:\\Experiments\\Mata\\code\\results\\runs"
+ },
+ "name": "deberta_zeroshot_h4_g0_r0_rc1_as0.25",
+ "n_test": 874,
+ "n_unseen": 379,
+ "all": {
+  "map25": 0.00023892852335442183,
+  "mrr10": 0.0,
+  "r1": 0.0,
+  "r5": 0.0,
+  "r25": 0.003432494279176201
+ },
+ "seen": {
+  "map25": 0.00011883541295306001,
+  "mrr10": 0.0,
+  "r1": 0.0,
+  "r5": 0.0,
+  "r25": 0.00202020202020202
+ },
+ "unseen": {
+  "map25": 0.00039577836411609497,
+  "mrr10": 0.0,
+  "r1": 0.0,
+  "r5": 0.0,
+  "r25": 0.005277044854881266
+ },
+ "train_time_s": 8.058547973632812e-05,
+ "train_peak_gb": 0.3495979309082031,
+ "eval_time_s": 9.086505651473999,
+ "eval_peak_gb": 3.016101837158203,
+ "ms_per_query": 3.306115246473788,
+ "n_params": 183831552
+}

@@ -1,0 +1,27 @@
+{
+ "args": {
+  "data": "clinc150",
+  "model": "mpnet",
+  "pool": "all",
+  "hard": 4,
+  "P": 20,
+  "fold": 1,
+  "seed": 2,
+  "epochs": 3,
+  "lr": 3e-05,
+  "bs": 64,
+  "tau": 0.05
+ },
+ "name": "clinc150_mpnet_all_h4",
+ "acc": 0.8775555555555555,
+ "mrr": 0.9185901651919711,
+ "r5": 0.9688888888888889,
+ "acc_seen": 0.9744444444444444,
+ "acc_unseen": 0.49,
+ "hmean": 0.6520940819418916,
+ "seen_share": 0.9,
+ "base_rate": 0.8,
+ "n_test": 4500,
+ "n_unseen_labels": 30,
+ "train_time_s": 131.03791880607605
+}

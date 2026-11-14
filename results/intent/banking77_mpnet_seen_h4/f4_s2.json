@@ -1,0 +1,27 @@
+{
+ "args": {
+  "data": "banking77",
+  "model": "mpnet",
+  "pool": "seen",
+  "hard": 4,
+  "P": 20,
+  "fold": 4,
+  "seed": 2,
+  "epochs": 3,
+  "lr": 3e-05,
+  "bs": 64,
+  "tau": 0.05
+ },
+ "name": "banking77_mpnet_seen_h4",
+ "acc": 0.8928571428571429,
+ "mrr": 0.9320927544693218,
+ "r5": 0.9873376623376623,
+ "acc_seen": 0.9379032258064516,
+ "acc_unseen": 0.7066666666666667,
+ "hmean": 0.8060283108302007,
+ "seen_share": 0.85,
+ "base_rate": 0.8051948051948052,
+ "n_test": 3080,
+ "n_unseen_labels": 15,
+ "train_time_s": 89.90501594543457
+}

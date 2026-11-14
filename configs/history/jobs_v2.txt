@@ -1,0 +1,40 @@
+--model bge --mode zeroshot --fold 0
+--model bge --mode mnrl --hard 4 --fold 0
+--model bge --mode ours --hard 4 --rev_all 1 --rev_local 1 --fold 0
+--model bge --mode ours --hard 4 --fold 0
+--model bge --mode ours --hard 4 --rev_all 1 --rev_local 1 --rev 2 --fold 0
+--model bge --mode ours --hard 4 --rev_all 1 --rev_local 1 --rev 0.5 --fold 0
+--model bge --mode mnrl --hard 4 --diff 0.5 --fold 0
+--model bge --mode mnrl --hard 0 --fold 0
+--model bge --mode zeroshot --fold 1
+--model bge --mode mnrl --hard 4 --fold 1
+--model bge --mode ours --hard 4 --rev_all 1 --rev_local 1 --fold 1
+--model bge --mode ours --hard 4 --fold 1
+--model bge --mode ours --hard 4 --rev_all 1 --rev_local 1 --rev 2 --fold 1
+--model bge --mode ours --hard 4 --rev_all 1 --rev_local 1 --rev 0.5 --fold 1
+--model bge --mode mnrl --hard 4 --diff 0.5 --fold 1
+--model bge --mode mnrl --hard 0 --fold 1
+--model bge --mode zeroshot --fold 2
+--model bge --mode mnrl --hard 4 --fold 2
+--model bge --mode ours --hard 4 --rev_all 1 --rev_local 1 --fold 2
+--model bge --mode ours --hard 4 --fold 2
+--model bge --mode ours --hard 4 --rev_all 1 --rev_local 1 --rev 2 --fold 2
+--model bge --mode ours --hard 4 --rev_all 1 --rev_local 1 --rev 0.5 --fold 2
+--model bge --mode mnrl --hard 4 --diff 0.5 --fold 2
+--model bge --mode mnrl --hard 0 --fold 2
+--model bge --mode zeroshot --fold 3
+--model bge --mode mnrl --hard 4 --fold 3
+--model bge --mode ours --hard 4 --rev_all 1 --rev_local 1 --fold 3
+--model bge --mode ours --hard 4 --fold 3
+--model bge --mode ours --hard 4 --rev_all 1 --rev_local 1 --rev 2 --fold 3
+--model bge --mode ours --hard 4 --rev_all 1 --rev_local 1 --rev 0.5 --fold 3
+--model bge --mode mnrl --hard 4 --diff 0.5 --fold 3
+--model bge --mode mnrl --hard 0 --fold 3
+--model bge --mode zeroshot --fold 4
+--model bge --mode mnrl --hard 4 --fold 4
+--model bge --mode ours --hard 4 --rev_all 1 --rev_local 1 --fold 4
+--model bge --mode ours --hard 4 --fold 4
+--model bge --mode ours --hard 4 --rev_all 1 --rev_local 1 --rev 2 --fold 4
+--model bge --mode ours --hard 4 --rev_all 1 --rev_local 1 --rev 0.5 --fold 4
+--model bge --mode mnrl --hard 4 --diff 0.5 --fold 4
+--model bge --mode mnrl --hard 0 --fold 4

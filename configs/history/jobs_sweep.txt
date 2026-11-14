@@ -1,0 +1,35 @@
+--model bge --mode mnrl --hard 4 --fold 0
+--model bge --mode ours --hard 4 --fold 0 --freeze_mis 1
+--model bge --mode mnrl --hard 4 --fold 0 --freeze_mis 1
+--model bge --mode ours --hard 4 --fold 0
+--model bge --mode zeroshot --fold 0
+--model bge --mode mnrl --hard 4 --fold 1
+--model bge --mode ours --hard 4 --fold 1 --freeze_mis 1
+--model bge --mode mnrl --hard 4 --fold 1 --freeze_mis 1
+--model bge --mode ours --hard 4 --fold 1
+--model bge --mode zeroshot --fold 1
+--model bge --mode mnrl --hard 4 --fold 2
+--model bge --mode ours --hard 4 --fold 2 --freeze_mis 1
+--model bge --mode mnrl --hard 4 --fold 2 --freeze_mis 1
+--model bge --mode ours --hard 4 --fold 2
+--model bge --mode zeroshot --fold 2
+--model bge --mode mnrl --hard 4 --fold 3
+--model bge --mode ours --hard 4 --fold 3 --freeze_mis 1
+--model bge --mode mnrl --hard 4 --fold 3 --freeze_mis 1
+--model bge --mode ours --hard 4 --fold 3
+--model bge --mode zeroshot --fold 3
+--model bge --mode mnrl --hard 4 --fold 4
+--model bge --mode ours --hard 4 --fold 4 --freeze_mis 1
+--model bge --mode mnrl --hard 4 --fold 4 --freeze_mis 1
+--model bge --mode ours --hard 4 --fold 4
+--model bge --mode zeroshot --fold 4
+--model bge --mode ours --hard 4 --fold 0 --rev 0.3
+--model bge --mode ours --hard 4 --fold 0 --rev 0
+--model bge --mode ours --hard 4 --fold 1 --rev 0.3
+--model bge --mode ours --hard 4 --fold 1 --rev 0
+--model bge --mode ours --hard 4 --fold 2 --rev 0.3
+--model bge --mode ours --hard 4 --fold 2 --rev 0
+--model bge --mode ours --hard 4 --fold 3 --rev 0.3
+--model bge --mode ours --hard 4 --fold 3 --rev 0
+--model bge --mode ours --hard 4 --fold 4 --rev 0.3
+--model bge --mode ours --hard 4 --fold 4 --rev 0

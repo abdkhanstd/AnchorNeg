@@ -1,0 +1,15 @@
+bib/
+hf_models/
+data_raw/
+weights/
+release/
+results/emb/
+results/logs/
+results/summary/
+results/runs_v2_partial/
+src/make_figs.py
+src/probe_cf.py
+__pycache__/
+*.pyc
+results/runs_release/*_as*/
+*.out

@@ -1,0 +1,27 @@
+{
+ "args": {
+  "data": "clinc150",
+  "model": "bge",
+  "pool": "all",
+  "hard": 4,
+  "P": 20,
+  "fold": 1,
+  "seed": 0,
+  "epochs": 3,
+  "lr": 3e-05,
+  "bs": 64,
+  "tau": 0.05
+ },
+ "name": "clinc150_bge_all_h4",
+ "acc": 0.8544444444444445,
+ "mrr": 0.8959817015630303,
+ "r5": 0.948,
+ "acc_seen": 0.9722222222222222,
+ "acc_unseen": 0.38333333333333336,
+ "hmean": 0.5498633879777365,
+ "seen_share": 0.9215555555555556,
+ "base_rate": 0.8,
+ "n_test": 4500,
+ "n_unseen_labels": 30,
+ "train_time_s": 125.1337263584137
+}

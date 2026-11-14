@@ -1,0 +1,61 @@
+{
+ "args": {
+  "model": "bert",
+  "mode": "zeroshot",
+  "fold": 3,
+  "seed": 0,
+  "epochs": 6,
+  "lr": 3e-05,
+  "bq": 16,
+  "tau": 0.05,
+  "hard": 4,
+  "no_correct": false,
+  "group": 0,
+  "rev": 0.0,
+  "rev_correct": 1,
+  "qlen": 256,
+  "mlen": 48,
+  "tag": "",
+  "save": false,
+  "dump": 1,
+  "diff": 0.0,
+  "rev_local": 0,
+  "rev_all": 0,
+  "distill": 0.0,
+  "dk": 128,
+  "dpool": "unseen",
+  "neg_pool": "all",
+  "freeze_mis": 0,
+  "out": "/home/abdkhan/eedi/code/results/runs"
+ },
+ "name": "bert_zeroshot_h4_g0_r0_rc1_as2",
+ "n_test": 874,
+ "n_unseen": 379,
+ "all": {
+  "map25": 0.010435175142534869,
+  "mrr10": 0.008045476008862736,
+  "r1": 0.0,
+  "r5": 0.021739130434782608,
+  "r25": 0.07093821510297482
+ },
+ "seen": {
+  "map25": 0.007926263880635977,
+  "mrr10": 0.006268237934904602,
+  "r1": 0.0,
+  "r5": 0.01616161616161616,
+  "r25": 0.048484848484848485
+ },
+ "unseen": {
+  "map25": 0.013711985365859278,
+  "mrr10": 0.010366670854797503,
+  "r1": 0.0,
+  "r5": 0.029023746701846966,
+  "r25": 0.10026385224274406
+ },
+ "train_time_s": 9.179115295410156e-05,
+ "train_peak_gb": 0.40891551971435547,
+ "eval_time_s": 3.1468517780303955,
+ "eval_peak_gb": 1.3436355590820312,
+ "ms_per_query": 1.0444588737575087,
+ "n_params": 109482240
+}

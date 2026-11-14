@@ -1,0 +1,60 @@
+--model bert --mode mnrl --hard 4 --neg_pool seen --fold 0
+--model bert --mode mnrl --hard 4 --fold 0
+--model bert --mode zeroshot --fold 0
+--model bert --mode mnrl --hard 4 --neg_pool seen --fold 1
+--model bert --mode mnrl --hard 4 --fold 1
+--model bert --mode zeroshot --fold 1
+--model bert --mode mnrl --hard 4 --neg_pool seen --fold 2
+--model bert --mode mnrl --hard 4 --fold 2
+--model bert --mode zeroshot --fold 2
+--model bert --mode mnrl --hard 4 --neg_pool seen --fold 3
+--model bert --mode mnrl --hard 4 --fold 3
+--model bert --mode zeroshot --fold 3
+--model bert --mode mnrl --hard 4 --neg_pool seen --fold 4
+--model bert --mode mnrl --hard 4 --fold 4
+--model bert --mode zeroshot --fold 4
+--model deberta --mode mnrl --hard 4 --neg_pool seen --fold 0
+--model deberta --mode mnrl --hard 4 --fold 0
+--model deberta --mode zeroshot --fold 0
+--model deberta --mode mnrl --hard 4 --neg_pool seen --fold 1
+--model deberta --mode mnrl --hard 4 --fold 1
+--model deberta --mode zeroshot --fold 1
+--model deberta --mode mnrl --hard 4 --neg_pool seen --fold 2
+--model deberta --mode mnrl --hard 4 --fold 2
+--model deberta --mode zeroshot --fold 2
+--model deberta --mode mnrl --hard 4 --neg_pool seen --fold 3
+--model deberta --mode mnrl --hard 4 --fold 3
+--model deberta --mode zeroshot --fold 3
+--model deberta --mode mnrl --hard 4 --neg_pool seen --fold 4
+--model deberta --mode mnrl --hard 4 --fold 4
+--model deberta --mode zeroshot --fold 4
+--model mpnet --mode mnrl --hard 4 --neg_pool seen --fold 0
+--model mpnet --mode mnrl --hard 4 --fold 0
+--model mpnet --mode zeroshot --fold 0
+--model mpnet --mode mnrl --hard 4 --neg_pool seen --fold 1
+--model mpnet --mode mnrl --hard 4 --fold 1
+--model mpnet --mode zeroshot --fold 1
+--model mpnet --mode mnrl --hard 4 --neg_pool seen --fold 2
+--model mpnet --mode mnrl --hard 4 --fold 2
+--model mpnet --mode zeroshot --fold 2
+--model mpnet --mode mnrl --hard 4 --neg_pool seen --fold 3
+--model mpnet --mode mnrl --hard 4 --fold 3
+--model mpnet --mode zeroshot --fold 3
+--model mpnet --mode mnrl --hard 4 --neg_pool seen --fold 4
+--model mpnet --mode mnrl --hard 4 --fold 4
+--model mpnet --mode zeroshot --fold 4
+--model bge-small --mode mnrl --hard 4 --neg_pool seen --fold 0
+--model bge-small --mode mnrl --hard 4 --fold 0
+--model bge-small --mode zeroshot --fold 0
+--model bge-small --mode mnrl --hard 4 --neg_pool seen --fold 1
+--model bge-small --mode mnrl --hard 4 --fold 1
+--model bge-small --mode zeroshot --fold 1
+--model bge-small --mode mnrl --hard 4 --neg_pool seen --fold 2
+--model bge-small --mode mnrl --hard 4 --fold 2
+--model bge-small --mode zeroshot --fold 2
+--model bge-small --mode mnrl --hard 4 --neg_pool seen --fold 3
+--model bge-small --mode mnrl --hard 4 --fold 3
+--model bge-small --mode zeroshot --fold 3
+--model bge-small --mode mnrl --hard 4 --neg_pool seen --fold 4
+--model bge-small --mode mnrl --hard 4 --fold 4
+--model bge-small --mode zeroshot --fold 4

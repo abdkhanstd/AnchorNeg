@@ -1,0 +1,10 @@
+--model bge --mode mnrl --hard 4 --neg_pool seen --fold 0 --save --dump 0 --out D:/Experiments/Mata/code/results/runs_release
+--model bge --mode mnrl --hard 4 --neg_pool seen --distill 1 --dpool all --fold 0 --save --dump 0 --out D:/Experiments/Mata/code/results/runs_release
+--model bge --mode mnrl --hard 4 --neg_pool seen --fold 1 --save --dump 0 --out D:/Experiments/Mata/code/results/runs_release
+--model bge --mode mnrl --hard 4 --neg_pool seen --distill 1 --dpool all --fold 1 --save --dump 0 --out D:/Experiments/Mata/code/results/runs_release
+--model bge --mode mnrl --hard 4 --neg_pool seen --fold 2 --save --dump 0 --out D:/Experiments/Mata/code/results/runs_release
+--model bge --mode mnrl --hard 4 --neg_pool seen --distill 1 --dpool all --fold 2 --save --dump 0 --out D:/Experiments/Mata/code/results/runs_release
+--model bge --mode mnrl --hard 4 --neg_pool seen --fold 3 --save --dump 0 --out D:/Experiments/Mata/code/results/runs_release
+--model bge --mode mnrl --hard 4 --neg_pool seen --distill 1 --dpool all --fold 3 --save --dump 0 --out D:/Experiments/Mata/code/results/runs_release
+--model bge --mode mnrl --hard 4 --neg_pool seen --fold 4 --save --dump 0 --out D:/Experiments/Mata/code/results/runs_release
+--model bge --mode mnrl --hard 4 --neg_pool seen --distill 1 --dpool all --fold 4 --save --dump 0 --out D:/Experiments/Mata/code/results/runs_release

@@ -1,0 +1,4 @@
+--model bge --mode mnrl --hard 4 --fold 0
+--model bge --mode ours --hard 4 --fold 0
+--model bge --mode mnrl --hard 0 --fold 0
+--model bge --mode ours --hard 0 --fold 0

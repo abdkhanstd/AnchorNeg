@@ -1,0 +1,40 @@
+--model bge --mode mnrl --hard 1 --fold 0
+--model bge --mode mnrl --hard 1 --neg_pool seen --fold 0
+--model bge --mode mnrl --hard 2 --fold 0
+--model bge --mode mnrl --hard 2 --neg_pool seen --fold 0
+--model bge --mode mnrl --hard 8 --fold 0
+--model bge --mode mnrl --hard 8 --neg_pool seen --fold 0
+--model bge --mode mnrl --hard 1 --fold 1
+--model bge --mode mnrl --hard 1 --neg_pool seen --fold 1
+--model bge --mode mnrl --hard 2 --fold 1
+--model bge --mode mnrl --hard 2 --neg_pool seen --fold 1
+--model bge --mode mnrl --hard 8 --fold 1
+--model bge --mode mnrl --hard 8 --neg_pool seen --fold 1
+--model bge --mode mnrl --hard 1 --fold 2
+--model bge --mode mnrl --hard 1 --neg_pool seen --fold 2
+--model bge --mode mnrl --hard 2 --fold 2
+--model bge --mode mnrl --hard 2 --neg_pool seen --fold 2
+--model bge --mode mnrl --hard 8 --fold 2
+--model bge --mode mnrl --hard 8 --neg_pool seen --fold 2
+--model bge --mode mnrl --hard 1 --fold 3
+--model bge --mode mnrl --hard 1 --neg_pool seen --fold 3
+--model bge --mode mnrl --hard 2 --fold 3
+--model bge --mode mnrl --hard 2 --neg_pool seen --fold 3
+--model bge --mode mnrl --hard 8 --fold 3
+--model bge --mode mnrl --hard 8 --neg_pool seen --fold 3
+--model bge --mode mnrl --hard 1 --fold 4
+--model bge --mode mnrl --hard 1 --neg_pool seen --fold 4
+--model bge --mode mnrl --hard 2 --fold 4
+--model bge --mode mnrl --hard 2 --neg_pool seen --fold 4
+--model bge --mode mnrl --hard 8 --fold 4
+--model bge --mode mnrl --hard 8 --neg_pool seen --fold 4
+--model bge --mode mnrl --hard 4 --no_correct --fold 0
+--model bge --mode ce --fold 0
+--model bge --mode mnrl --hard 4 --no_correct --fold 1
+--model bge --mode ce --fold 1
+--model bge --mode mnrl --hard 4 --no_correct --fold 2
+--model bge --mode ce --fold 2
+--model bge --mode mnrl --hard 4 --no_correct --fold 3
+--model bge --mode ce --fold 3
+--model bge --mode mnrl --hard 4 --no_correct --fold 4
+--model bge --mode ce --fold 4

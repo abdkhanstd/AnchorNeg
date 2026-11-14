@@ -1,0 +1,61 @@
+{
+ "args": {
+  "model": "bge",
+  "mode": "ce",
+  "fold": 1,
+  "seed": 0,
+  "epochs": 6,
+  "lr": 3e-05,
+  "bq": 16,
+  "tau": 0.05,
+  "hard": 4,
+  "no_correct": false,
+  "group": 0,
+  "rev": 0.0,
+  "rev_correct": 1,
+  "qlen": 256,
+  "mlen": 48,
+  "tag": "",
+  "save": false,
+  "dump": 1,
+  "diff": 0.0,
+  "rev_local": 0,
+  "rev_all": 0,
+  "distill": 0.0,
+  "dk": 128,
+  "dpool": "unseen",
+  "neg_pool": "all",
+  "freeze_mis": 0,
+  "out": "/home/abdkhan/eedi/code/results/runs"
+ },
+ "name": "bge_ce_h4_g0_r0_rc1",
+ "n_test": 874,
+ "n_unseen": 413,
+ "all": {
+  "map25": 0.11876717169184986,
+  "mrr10": 0.11532318114125896,
+  "r1": 0.06292906178489703,
+  "r5": 0.17848970251716248,
+  "r25": 0.2837528604118993
+ },
+ "seen": {
+  "map25": 0.22516813027912533,
+  "mrr10": 0.21863874255414384,
+  "r1": 0.1193058568329718,
+  "r5": 0.3383947939262473,
+  "r25": 0.5379609544468547
+ },
+ "unseen": {
+  "map25": 0.0,
+  "mrr10": 0.0,
+  "r1": 0.0,
+  "r5": 0.0,
+  "r25": 0.0
+ },
+ "train_time_s": 112.88233876228333,
+ "train_peak_gb": 5.580644130706787,
+ "eval_time_s": 0.7721891403198242,
+ "eval_peak_gb": 2.632521629333496,
+ "ms_per_query": null,
+ "n_params": 111471643
+}

@@ -1,0 +1,15 @@
+--model bge --mode mnrl --hard 4 --neg_pool seen --distill 1 --dpool all --remine 1 --fold 0 --seed 0
+--model bge --mode mnrl --hard 4 --neg_pool seen --distill 1 --dpool all --remine 1 --fold 1 --seed 0
+--model bge --mode mnrl --hard 4 --neg_pool seen --distill 1 --dpool all --remine 1 --fold 2 --seed 0
+--model bge --mode mnrl --hard 4 --neg_pool seen --distill 1 --dpool all --remine 1 --fold 3 --seed 0
+--model bge --mode mnrl --hard 4 --neg_pool seen --distill 1 --dpool all --remine 1 --fold 4 --seed 0
+--model bge --mode mnrl --hard 4 --neg_pool seen --distill 1 --dpool all --remine 1 --fold 0 --seed 1
+--model bge --mode mnrl --hard 4 --neg_pool seen --distill 1 --dpool all --remine 1 --fold 1 --seed 1
+--model bge --mode mnrl --hard 4 --neg_pool seen --distill 1 --dpool all --remine 1 --fold 2 --seed 1
+--model bge --mode mnrl --hard 4 --neg_pool seen --distill 1 --dpool all --remine 1 --fold 3 --seed 1
+--model bge --mode mnrl --hard 4 --neg_pool seen --distill 1 --dpool all --remine 1 --fold 4 --seed 1
+--model bge --mode mnrl --hard 4 --neg_pool seen --distill 1 --dpool all --remine 1 --fold 0 --seed 2
+--model bge --mode mnrl --hard 4 --neg_pool seen --distill 1 --dpool all --remine 1 --fold 1 --seed 2
+--model bge --mode mnrl --hard 4 --neg_pool seen --distill 1 --dpool all --remine 1 --fold 2 --seed 2
+--model bge --mode mnrl --hard 4 --neg_pool seen --distill 1 --dpool all --remine 1 --fold 3 --seed 2
+--model bge --mode mnrl --hard 4 --neg_pool seen --distill 1 --dpool all --remine 1 --fold 4 --seed 2

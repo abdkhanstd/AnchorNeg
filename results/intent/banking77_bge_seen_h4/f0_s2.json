@@ -1,0 +1,27 @@
+{
+ "args": {
+  "data": "banking77",
+  "model": "bge",
+  "pool": "seen",
+  "hard": 4,
+  "P": 20,
+  "fold": 0,
+  "seed": 2,
+  "epochs": 3,
+  "lr": 3e-05,
+  "bs": 64,
+  "tau": 0.05
+ },
+ "name": "banking77_bge_seen_h4",
+ "acc": 0.8818181818181818,
+ "mrr": 0.9237137900300721,
+ "r5": 0.9792207792207792,
+ "acc_seen": 0.9323770491803278,
+ "acc_unseen": 0.6890625,
+ "hmean": 0.7924637841419417,
+ "seen_share": 0.8301948051948052,
+ "base_rate": 0.7922077922077922,
+ "n_test": 3080,
+ "n_unseen_labels": 16,
+ "train_time_s": 69.20530605316162
+}
